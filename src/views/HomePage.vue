@@ -44,7 +44,7 @@
       </a-col>
       <a-col :span="12" class="project-wrapper">
         <a-card title="进行中的项目" class="project-card">
-          <a href="https://github.com/wuyouzhuguli?tab=repositories" target="_blank" slot="extra">所有项目</a>
+          <a href="https://github.com/GitBoyXuChang?tab=repositories" target="_blank" slot="extra">所有项目</a>
           <table>
             <tr>
               <td>
@@ -166,28 +166,28 @@ export default {
       },
       projects: [
         {
-          name: 'FEBS-Shiro',
-          des: 'Spring Boot 2.0.4 & Shiro1.4.0 权限管理系统。',
+          name: 'dataStructure',
+          des: '数据结构与算法',
           avatar: 'F'
         },
         {
-          name: 'FEBS-Security',
-          des: 'Spring Boot 2.0.4 & Spring Security 5.0.7 权限管理系统。',
+          name: 'design_pattern',
+          des: 'java设计模式',
           avatar: 'F'
         },
         {
-          name: 'SpringAll',
-          des: '循序渐进学习Spring Boot、Spring Cloud与Spring Security。',
+          name: 'JavaConcurrentProgramming',
+          des: 'java并发编程',
           avatar: 'S'
         },
         {
-          name: 'FEBS-Shiro-Vue',
-          des: 'FEBS-Shiro前后端分离版本，前端架构采用Vue全家桶。',
+          name: 'spring-framework',
+          des: 'spring的源码',
           avatar: 'F'
         },
         {
-          name: 'FEBS-Actuator',
-          des: '使用Spring Boot Admin 2.0.2构建，用于监控FEBS。',
+          name: 'flutter_douban_movie',
+          des: 'flutter学习',
           avatar: 'F'
         }
       ],
